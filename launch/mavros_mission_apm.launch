@@ -1,0 +1,5 @@
+<launch>
+    <!-- Node launcher for ArduPilot Autopilot -->
+    <node pkg="mavros_auto_mission" type="mavros_mission_apm.py" name="mavros_mission_apm"  output="screen">
+    </node>
+</launch>
