@@ -12,7 +12,7 @@ runs on Ubuntu20.04 LTS environment, I notice that Ubuntu18 has some issue with 
 steps for running the mission:
 
 (first terminal)
-
+'''bash
 cd ${HOME}/repos/PX4-Autopilot
 DONT_RUN=1 make px4_sitl_default gazebo
 export PX4_HOME_LAT=40.091754
